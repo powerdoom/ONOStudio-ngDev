@@ -9,7 +9,8 @@
 var OnoStudioApp = angular.module('OnoStudioApp', []);
 
 OnoStudioApp.factory('StudioFactory', function() {
-
+  var service = {};
+  return service;
 });
 
 OnoStudioApp.controller('MainController', function() {
